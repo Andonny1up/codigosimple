@@ -1,0 +1,66 @@
+@import "../../styles/colors.css";
+
+.hero{
+    padding-top: 10rem ;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.hero .hero-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-logo{
+    width: 200px;
+    height: 200px;
+}
+.hero-title{
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-text-10);
+    margin-bottom: 1rem;
+}
+.hero-paragraph{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--secondary-text-10);
+    margin-bottom: 1rem;
+}
+.btns-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn-blue{
+    font-weight: 500;
+    background-color: var(--prussian-blue-500);
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-blue:hover{
+    background-color: var(--prussian-blue-300);
+}
+.btn-default{
+    font-weight: 500;
+    background-color: var(--background);
+    color: var(--primary-text-api);
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: solid 1px var(--secondary-text-10);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-default:hover{
+    background-color: var(--background-50);
+}

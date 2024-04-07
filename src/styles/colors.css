@@ -1,0 +1,32 @@
+:root {
+    /* prussian blue */
+    --prussian-blue-50: #f1f7fe;
+    --prussian-blue-100: #e3eefb;
+    --prussian-blue-200: #c0ddf7;
+    --prussian-blue-300: #89c1f0;
+    --prussian-blue-400: #4aa1e6;
+    --prussian-blue-500: #2285d5;
+    --prussian-blue-600: #1469b5;
+    --prussian-blue-700: #125492;
+    --prussian-blue-800: #134779;
+    --prussian-blue-900: #123456;
+    --prussian-blue-950: #0e2743;
+    /* background */
+    --background: #FFFFFF;
+    --background-50: #F4F4F4;
+    /* text */
+    --primary-text: #000000;
+    --primary-text-10: #23272F;
+    --secondary-text: #404752;
+    --secondary-text-10: #404756;
+
+}
+[data-theme="dark"] {
+    /* Dark theme */
+    --background: #232730;
+    --background-50: #2D323B;
+    --primary-text: #FFFFFF;
+    --primary-text-10: #F6F7F9;
+    --secondary-text: #F4F4F4;
+    --secondary-text-10: #F6F7F9;
+}

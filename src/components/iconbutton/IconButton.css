@@ -1,0 +1,27 @@
+@import '../../styles/colors.css';
+
+.icon-button{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: red;
+    /* transition: background-color 0.3s; */
+}
+.icon-button:hover{
+    background-color: var(--background-50);
+}
+.icon-button > svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--secondary-text);
+    
+}
+.icon-button > svg > path{
+    color: var(--secondary-text);
+}
