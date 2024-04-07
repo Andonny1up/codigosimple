@@ -1,4 +1,3 @@
-import logo from './assets/logo.svg';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import './styles/global.css';
