@@ -11,8 +11,8 @@ const Hero = () =>{
             <h1 className="hero-title">CodigoSimple.dev</h1>
             <p className="hero-paragraph">Pagina en Construcción.</p>
             <div className='btns-container'>
-                <a href="" className='btn-blue'>Leer Más</a>
-                <a href="" className='btn-default'>API </a>
+                <a href="#" className='btn-blue'>Leer Más</a>
+                <a href="#" className='btn-default'>API </a>
             </div>
           </div>
         </Container>
